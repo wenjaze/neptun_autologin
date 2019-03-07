@@ -1,0 +1,18 @@
+# neptun_autologin
+
+## Introduction
+
+This project aims to be a little help when it comes
+to so called ***Tárgyfelvétel***. It is a procedure in
+which all Hungarian University/College students learn what
+hell really is.
+
+## How to use?
+
+```bash
+./setup.sh
+```
+
+## Creators
+
+- [wenjaze](https://github.com/wenjaze)
