@@ -11,6 +11,7 @@ hell really is.
 
 ```bash
 ./setup.sh
+./neptun_autologin.py
 ```
 
 ## Creators
