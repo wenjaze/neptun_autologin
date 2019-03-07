@@ -6,11 +6,11 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
+import getpass
 
-
-usernameString = input('username : ')
-passwordString = input('password : ') #password ide jön
-neptun_szerverek = input('neptun szerverek száma : ')
+usernameString = input('username: ')
+passwordString = getpass.getpass('password: ') #password ide jön
+neptun_szerverek = input('neptun szerverek száma: ')
 
 
 for i in range(1,int(neptun_szerverek)+1):
