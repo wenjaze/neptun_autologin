@@ -7,7 +7,7 @@ from selenium.webdriver.common.keys import Keys
 
 
 usernameString = input('username : ')
-passwordString = input('password : ') #password ide jön
+passwordString = getpass('password : ') #password ide jön
 neptun_szerverek = input('neptun szerverek száma : ')
 
 
